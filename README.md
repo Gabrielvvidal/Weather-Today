@@ -5,6 +5,8 @@
 
 Um portal projetado para oferecer informações climáticas atuais.
 
+---
+
 ## 🔧 Instalação
 Use o seguinte comando para instalar as dependências:
 
