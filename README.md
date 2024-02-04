@@ -3,7 +3,7 @@
 [![Autor](https://img.shields.io/badge/Autor-Gabriel%20Vieira%20Vidal-blue)](https://www.linkedin.com/in/gabrielvvidal/)
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-Um portal meticulosamente projetado para oferecer informações climáticas atuais e previsões globais.
+Um portal projetado para oferecer informações climáticas atuais.
 
 ## 🚀 Instalação
 Use o seguinte comando para instalar as dependências:
