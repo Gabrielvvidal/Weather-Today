@@ -39,7 +39,7 @@ const defaultWeather = async function(){
 
   const [cityResponse, weatherResponse] = await getWeather("Rio de Janeiro")
   
-  cityName.innerText = `${cityResponse[0].local_names.pt}`
+  cityName.innerText = `${cityResponse[0].name}`
   icon.setAttribute('src', `https://openweathermap.org/img/wn/${weatherResponse.current.weather[0].icon}@2x.png`)
   temperature.innerText = `${Math.trunc(weatherResponse.current.temp)}ºC`
   description.innerText = `${weatherResponse.current.weather[0].description}`
@@ -54,7 +54,7 @@ const showWeather = async function(city){
 
   const [cityResponse, weatherResponse] = await getWeather(city)
 
-  cityName.innerText = `${cityResponse[0].local_names.pt}`
+  cityName.innerText = `${cityResponse[0].name}`
   icon.setAttribute('src', `https://openweathermap.org/img/wn/${weatherResponse.current.weather[0].icon}@2x.png`)
   temperature.innerText = `${Math.trunc(weatherResponse.current.temp)}ºC`
   description.innerText = `${weatherResponse.current.weather[0].description}`
