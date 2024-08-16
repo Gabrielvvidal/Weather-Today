@@ -21,4 +21,7 @@ npm run dev
 
 ---
 
+![screenshot](https://media.licdn.com/dms/image/D4E2DAQE5J3D2u0JNkA/profile-treasury-image-shrink_800_800/0/1707103752393?e=1724385600&v=beta&t=aa5ZZT_6i-iOxpboG39-iwMNAD2wuTmYSnRPE0hbkX4)
+
+---
 #### Feito com ❤️ por Gabriel Vieira Vidal
